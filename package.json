@@ -1,0 +1,25 @@
+{
+  "name": "node-27566-bug",
+  "version": "1.0.0",
+  "description": "demonstration of Node.js coverage bug",
+  "main": "index.js",
+  "scripts": {
+    "bug": "c8 node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bcoe/node-27566-bug.git"
+  },
+  "keywords": [
+    "bug"
+  ],
+  "author": "Ben Coe <ben@google.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bcoe/node-27566-bug/issues"
+  },
+  "homepage": "https://github.com/bcoe/node-27566-bug#readme",
+  "devDependencies": {
+    "c8": "^5.0.1"
+  }
+}
